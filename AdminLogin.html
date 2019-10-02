@@ -24,25 +24,21 @@
     <a href="PatientLogin.html">Patient</a>
   </div>
 
-<form action="#" style="max-width:500px;margin:auto">
+<form action="#" onsubmit="return validate()" style="max-width:500px;margin:auto">
   <h2>Admin login</h2>
 
 
   <div class="input-container">
     <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Name" name="name"><br>
+    <input class="input-field" type="text" placeholder="Name" name="name" id="user"><br>
   </div>
   
   <div class="input-container">
     <i class="fa fa-key icon"></i>
-    <input class="input-field" type="password" placeholder="Password" name="psw"><br>
+    <input class="input-field" type="password" placeholder="Password" name="psw" id="pass"><br>
   </div>
 
   <button type="submit" class="btn">Login</button>
-  <br>
-  <br>
-  <button type="submit" class="btn">Login</button>
-
 
 
 
